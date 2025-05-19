@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 const Hero = () => {
   return (
-    <section className="flex flex-col md:flex-row px-5 py-32 bg-secondary justify-center">
+    <section className="flex flex-col md:flex-row px-5 py-32 bg-primary justify-center">
       <div className="md:w-1/2 flex flex-col">
         <h1 className=" text-white text-6xl font-montserrat">
           Hi,
