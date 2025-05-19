@@ -10,19 +10,19 @@ const Header = () => {
       {toggleMenu && (
         <nav className="block md:hidden">
           <ul className="flex flex-col text-white mobile-nav">
-            <li href="#">HOME</li>
-            <li href="#">PROJECT</li>
-            <li href="#">RESUME</li>
-            <li href="#">CONTACT</li>
+            <a href="#"><li href="#">HOME</li></a>
+            <a href="#"><li href="#">PROJECT</li></a>
+            <a href="#"><li href="#">RESUME</li></a>
+            <a href="#"><li href="#">CONTACT</li></a>
           </ul>
         </nav>
       )}
       <nav className="hidden md:block">
         <ul className="flex text-white">
-          <li href="#">HOME</li>
-          <li href="#">PROJECT</li>
-          <li href="#">RESUME</li>
-          <li href="#">CONTACT</li>
+          <a href="#"><li href="#">HOME</li></a>
+          <a href="#"><li href="#">PROJECT</li></a>
+          <a href="#"><li href="#">RESUME</li></a>
+          <a href="#"><li href="#">CONTACT</li></a>
         </ul>
       </nav>
       <button

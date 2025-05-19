@@ -1,11 +1,20 @@
 @import "tailwindcss";
 
+.font-montserrat{
+  
+  font-family: "montserrat", sans-serif;
+}
+
 header ul li{
   @apply px-2;
 }
 
 .bg-primary{
   background: rgb(85, 81, 227);
+}
+
+.bg-secondary{
+  background:#2b2d77;
 }
 
 .mobile-nav{
