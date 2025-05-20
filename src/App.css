@@ -24,3 +24,7 @@ header ul li{
 .mobile-nav li{
   @apply w-full h-full border-b-2 text-center;
 }
+
+.project-desc{
+  @apply absolute right-0 left-0 bottom-0 top-0 bg-[#2b2d77] opacity-0 duration-500 hover:opacity-100;
+}
