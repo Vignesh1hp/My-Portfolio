@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="flex justify-between px-5 py-2 bg-primary">
       <a href="/" className="font-bold text-black">
-        LOGO
+        Vignesh Kumar
       </a>
       {toggleMenu && (
         <nav className="block md:hidden">

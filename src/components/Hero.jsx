@@ -6,6 +6,14 @@ import {
   AiOutlineInstagram,
 } from "react-icons/ai";
 const Hero = () => {
+  const config = {
+    subtitle: "I'm a Front-end developer",
+    social:{
+      github:'https://github.com/Vignesh1hp',
+      linkedin:'https://www.linkedin.com/in/vigneshkumar1hp/',
+      instagram:'https://www.instagram.com/vignesh_1hp?igsh=ZW5maW5kdThhZjNu'
+    }
+  }
   return (
     <section className="flex flex-col md:flex-row px-5 py-32 bg-primary justify-center">
       <div className="md:w-1/2 flex flex-col">
@@ -13,16 +21,16 @@ const Hero = () => {
           Hi,
           <br />
           I'm Vignesh Kumar
-          <p className="text-2xl">I'm a Front-end developer</p>
+          <p className="text-2xl">{config.subtitle}</p>
         </h1>
         <div className="flex py-10">
-          <a className="pr-5 hover:text-white" href="#">
+          <a className="pr-5 hover:text-white" href={config.social.github} target="_blank">
             <AiOutlineGithub size={40} />
           </a>
-          <a className="pr-5 hover:text-white" href="#">
+          <a className="pr-5 hover:text-white" href={config.social.linkedin} target="_blank">
             <AiOutlineLinkedin size={40} />
           </a>
-          <a className="hover:text-white" href="#">
+          <a className="hover:text-white" href={config.social.instagram} target="_blank">
             <AiOutlineInstagram size={40} />
           </a>
         </div>
