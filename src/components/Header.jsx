@@ -9,12 +9,12 @@ const Header = () => {
       </a>
       {toggleMenu && (
         <nav className="block md:hidden">
-          <ul className="flex flex-col text-white mobile-nav">
+          <ul onClick={()=>setToggleMenu(!toggleMenu)} className="flex flex-col text-white mobile-nav">
             <li><a href="/">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#projects">PROJECTS</a></li>
-            <li><a href="#resume">RESUME</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="/#about">ABOUT</a></li>
+            <li><a href="/#projects">PROJECTS</a></li>
+            <li><a href="/#resume">RESUME</a></li>
+            <li><a href="/#contact">CONTACT</a></li>
           </ul>
         </nav>
       )}
