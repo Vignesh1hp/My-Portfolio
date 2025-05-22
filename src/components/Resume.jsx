@@ -2,8 +2,8 @@ import React from "react";
 import ResumeImg from "../assets/resume.jpg";
 const Resume = () => {
   return (
-    <section className="flex flex-col bg-secondary px-5 md:flex-row">
-      <div className="py-5 md:w-1/2 flex justify-end">
+    <section className="flex flex-col bg-secondary px-5 md:flex-row" id="resume">
+      <div className="py-5 md:w-1/2 flex justify-center md:justify-end">
         <img className="w-[300px]" src={ResumeImg} alt="About Image" />
       </div>
       <div className="md:w-1/2 flex justify-center">

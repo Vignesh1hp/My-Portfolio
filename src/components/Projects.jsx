@@ -1,9 +1,10 @@
 import React from "react";
 import todoImg from "../assets/to-do-list.jpg";
 import googleSearchImg from "../assets/google-search-page.jpg";
+import loginImg from "../assets/login.jpg"
 const Projects = () => {
   return (
-    <section className="flex flex-col py-20 px-5 justify-center bg-primary text-white">
+    <section className="flex flex-col py-20 px-5 justify-center bg-primary text-white" id="projects">
       <div className="w-full px-10 py-5">
         <div className="flex flex-col ">
           <h1 className="text-4xl border-b-4 border-b-[#2b2d77] mb-5 w-[140px] font-bold">
@@ -40,7 +41,7 @@ const Projects = () => {
           <div className="relative">
             <img
               className="h-[200px] w-[400px]"
-              src={googleSearchImg}
+              src={loginImg}
               alt="Login and Register project"
             />
             <div className="project-desc">

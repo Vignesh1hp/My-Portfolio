@@ -32,3 +32,7 @@ header ul li{
 .btn{
   @apply bg-[#5551E3] px-5 py-2 font-bold hover:border-2 border-white rounded;
 }
+
+html{
+  scroll-behavior: smooth;
+}

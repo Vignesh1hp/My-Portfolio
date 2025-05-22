@@ -4,26 +4,27 @@ const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <header className="flex justify-between px-5 py-2 bg-primary">
-      <a href="#" className="font-bold text-black">
+      <a href="/" className="font-bold text-black">
         LOGO
       </a>
       {toggleMenu && (
         <nav className="block md:hidden">
           <ul className="flex flex-col text-white mobile-nav">
-            <a href="#"><li href="#">HOME</li></a>
-            <a href="#"><li href="#">ABOUT</li></a>
-            <a href="#"><li href="#">PROJECT</li></a>
-            <a href="#"><li href="#">RESUME</li></a>
-            <a href="#"><li href="#">CONTACT</li></a>
+            <li><a href="/">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#resume">RESUME</a></li>
+            <li><a href="#contact">CONTACT</a></li>
           </ul>
         </nav>
       )}
       <nav className="hidden md:block">
         <ul className="flex text-white">
-          <a href="#"><li href="#">HOME</li></a>
-          <a href="#"><li href="#">PROJECT</li></a>
-          <a href="#"><li href="#">RESUME</li></a>
-          <a href="#"><li href="#">CONTACT</li></a>
+          <li><a href="/">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#resume">RESUME</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
       <button

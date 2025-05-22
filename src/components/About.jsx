@@ -2,7 +2,7 @@ import React from "react";
 import AboutImg from "../assets/about.png";
 const About = () => {
   return (
-    <section className="flex flex-col bg-secondary px-5 md:flex-row">
+    <section className="flex flex-col bg-secondary px-5 md:flex-row" id="about">
       <div className="py-5 md:w-1/2">
         <img src={AboutImg} alt="About Image" />
       </div>
