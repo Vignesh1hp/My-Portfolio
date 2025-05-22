@@ -11,6 +11,7 @@ const Header = () => {
         <nav className="block md:hidden">
           <ul className="flex flex-col text-white mobile-nav">
             <a href="#"><li href="#">HOME</li></a>
+            <a href="#"><li href="#">ABOUT</li></a>
             <a href="#"><li href="#">PROJECT</li></a>
             <a href="#"><li href="#">RESUME</li></a>
             <a href="#"><li href="#">CONTACT</li></a>
