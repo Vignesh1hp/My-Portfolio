@@ -7,8 +7,8 @@ const Projects = () => {
     projects:[
       {
         img:todoImg,
-        description:"This to-do list single page website build with ReactJS",
-        link:"https://github.com/Vignesh1hp/todo-app.git"
+        description:"This to-do list single page website build with ReactJS local storage.",
+        link:"https://todo-app1hp.netlify.app/"
       },
       {
         img:googleSearchImg,
